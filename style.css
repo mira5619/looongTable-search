@@ -1,0 +1,46 @@
+body {
+    width: 80%;
+    margin: 100px auto;
+    font-size: 16px;
+    font-family: courier;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+caption {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+th {
+  border-bottom: 1px solid;
+  text-align: left
+ }
+
+td:first-child,
+th:first-child,
+td:last-child,
+ th:last-child {
+  text-align: right;
+}
+
+td,
+ th {
+    padding: 0.125em 0.5em 0.25em 0.5em;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+#search{
+    float: right;
+    margin-right: 3px;
+}
+
