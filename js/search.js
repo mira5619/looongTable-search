@@ -35,10 +35,11 @@ function init(){
 p = document.getElementById("output");
 table = document.getElementById("myTable");
 inputBox=document.getElementById("mySearch");
+inputBox.addEventListener("input", search);
 inputBox.addEventListener("focus", reset);
 
-button = document.querySelector('button');
-button.addEventListener("click", search);
+//button = document.querySelector('button');
+//button.addEventListener("click", search);
 
 search();
 reset();
